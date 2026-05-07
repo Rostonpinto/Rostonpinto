@@ -1,4 +1,4 @@
-# 💫 About Me:
+#  About Me:
 💚 About Me :<br>🛠️ I’m currently working on<br>Device integration in the Metrolinks project using Java and backend technologies as an Application Developer at Accenture.<br><br>🤝 I’m looking to collaborate on<br>Java and Cloud development projects to grow and build impactful solutions.<br><br>🧠 I’m looking for help with<br>Deepening my knowledge in cloud platforms and scalable system design.<br><br>🌱 I’m currently learning<br>AWS Cloud, Data Engineering, and Advanced Java concepts.<br><br>💬 Ask me about<br>Java backend development, Python scripting, Flask, SQL, or real-time project building.<br><br>⚡ Fun fact<br>I enjoy simplifying complex problems through code and constantly strive to learn something new every day!
 
 
