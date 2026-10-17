@@ -14,10 +14,19 @@ Run once whenever the source photo changes; the ascii SVG itself is static.
 import os
 import sys
 
-import cv2
+try:
+    import cv2
+except ImportError:  # pragma: no cover - optional at type-check time
+    cv2 = None  # type: ignore[assignment]
+
 import numpy as np
 from PIL import Image
 from rembg import remove
+
+if cv2 is None:
+    raise SystemExit(
+        "Missing dependency: cv2 (OpenCV). Install it with 'pip install opencv-python-headless' and rerun."
+    )
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 INP = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-photo.jpg")
